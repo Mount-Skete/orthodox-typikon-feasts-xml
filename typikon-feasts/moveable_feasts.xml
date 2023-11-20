@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feasts>
+    <feast id="" type="great" rank="vigil">
+        <title>
+            <ru>Светлое Христово Воскресение</ru>
+        </title>
+        <date>
+            <easter/>
+        </date>
+        <hymns>
+            <hymn type="troparion" echo="5">
+                <title>
+                    <ru>Тропарь</ru>
+                </title>
+                <content>
+                    <ru>
+                        Христос воскресе из мертвых, смертию смерть поправ, и сущим во гробех
+                        живот даровав.
+                    </ru>
+                </content>
+            </hymn>
+            <hymn type="kontakion" echo="8">
+                <title>
+                    <ru>Кондак</ru>
+                </title>
+                <content>
+                    <ru>
+                        Аще и во гроб снизшел еси Безсмертне, но адову разрушил еси силу, и
+                        воскресл еси яко победитель Христе Боже, женам мироносицам вещавый:
+                        радуйтеся, и Твоим апостолом мир даруяй, падшим подаяй воскресение.
+                    </ru>
+                </content>
+            </hymn>
+        </hymns>
+    </feast>
+
+    <feast id="" type="great" rank="vigil">
+        <title>
+            <ru>День Святой Троицы</ru>
+        </title>
+        <date>
+            <easter days="+50"/>
+        </date>
+    </feast>
+
+</feasts>
