@@ -2,6 +2,9 @@
 <feasts>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-253-1" />
+    </refs>
     <title>
       <ru>Святаго пророка Иеремии</ru>
     </title>
@@ -27,6 +30,9 @@
   </feast>
 
   <feast id="" type="middle" rank="great_doxology">
+    <refs>
+      <ref id="ls-253-2" />
+    </refs>
     <title>
       <ru>Преподобнаго Пафнутиа Боровскаго</ru>
     </title>
@@ -104,6 +110,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-255-1" />
+    </refs>
     <title>
       <ru>Святых мученик, Тимофеа и Мавры</ru>
     </title>
@@ -128,6 +137,9 @@
   </feast>
 
   <feast id="" type="middle" rank="polyeleos">
+    <refs>
+      <ref id="ls-255-2" />
+    </refs>
     <title>
       <ru>Успение преподобнаго отца нашего Феодосиа, игумена монастыря Печерскаго, и начальника в
         Российстей земли монашескаго общаго жития</ru>
@@ -167,6 +179,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-256-1" />
+    </refs>
     <title>
       <ru>Святыя преподобномученицы Пелагии</ru>
     </title>
@@ -191,6 +206,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-257-1" />
+    </refs>
     <title>
       <ru>Святыя и славныя мученицы Ирины</ru>
     </title>
@@ -217,6 +235,9 @@
   <feast id="" type="low" rank="ordinary">
     <title>
       <ru>Святаго и праведнаго Иова Многострадальнаго</ru>
+      <refs>
+        <ref id="ls-258-1" />
+      </refs>
     </title>
     <date>
       <julian>05-06</julian>
@@ -295,6 +316,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-259-1" />
+    </refs>
     <title>
       <ru>Святаго мученика Акакиа</ru>
     </title>
@@ -344,6 +368,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-260-1" />
+    </refs>
     <title>
       <ru>Преподобнаго отца нашего Арсениа Великаго</ru>
     </title>
@@ -370,6 +397,9 @@
   <feast id="" type="low" rank="ordinary">
     <title>
       <ru>Святаго пророка Исаии</ru>
+      <refs>
+        <ref id="ls-261-1" />
+      </refs>
     </title>
     <date>
       <julian>05-09</julian>
@@ -391,6 +421,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-261-2" />
+    </refs>
     <title>
       <ru>Святаго мученика Христофора</ru>
     </title>
@@ -442,6 +475,9 @@
   </feast>
 
   <feast id="" type="middle" rank="polyeleos">
+    <refs>
+      <ref id="ls-262-1" />
+    </refs>
     <title>
       <ru>Святаго апостола Симона Зилота</ru>
     </title>
@@ -489,6 +525,9 @@
 
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-263-1" />
+    </refs>
     <title>
       <ru>Святаго священномученика Мокиа</ru>
     </title>
@@ -552,6 +591,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-264-4" />
+    </refs>
     <title>
       <ru>Иже во святых отец наших, Епифаниа епископа Кипрскаго и Германа патриарха
         Константинопольскаго</ru>
@@ -577,6 +619,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-265-1" />
+    </refs>
     <title>
       <ru>Святыя мученицы Гликерии</ru>
     </title>
@@ -601,6 +646,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-266-1" />
+    </refs>
     <title>
       <ru>Святаго мученика Исидора, иже во острове Хиосе</ru>
     </title>
@@ -664,6 +712,9 @@
   </feast>
 
   <feast id="" type="middle" rank="six_stichera">
+    <refs>
+      <ref id="ls-267-1" />
+    </refs>
     <title>
       <ru>Преподобнаго отца нашего Пахомиа Великаго</ru>
     </title>
@@ -768,6 +819,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-268-1" />
+    </refs>
     <title>
       <ru>Преподобнаго отца нашего Феодора Освященнаго, ученика преподобнаго Пахомиа Великаго</ru>
     </title>
@@ -830,6 +884,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-269-1" />
+    </refs>
     <title>
       <ru>Святаго апостола Андроника, и иже с ним</ru>
     </title>
@@ -854,6 +911,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-270-1" />
+    </refs>
     <title>
       <ru>Святаго мученика Феодота, иже во Анкире</ru>
     </title>
@@ -878,6 +938,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-270-2" />
+    </refs>
     <title>
       <ru>Святых мученик, Петра, Дионисиа, и иже с ними</ru>
     </title>
@@ -900,6 +963,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-271-1" />
+    </refs>
     <title>
       <ru>Святаго священномученика Патрикиа, епископа Прусскаго, и дружины его</ru>
     </title>
@@ -988,6 +1054,9 @@
 
 
   <feast id="" type="middle" rank="polyeleos">
+    <refs>
+      <ref id="ls-272-3" />
+    </refs>
     <title>
       <ru>Обретение честных мощей, иже во святых отца нашего Алексиа митрополита Киевскаго и всея
         России чудотворца</ru>
@@ -1028,6 +1097,9 @@
   </feast>
 
   <feast id="" type="middle" rank="polyeleos">
+    <refs>
+      <ref id="ls-273-1" />
+    </refs>
     <title>
       <ru>Святых великих царей и равноапостолов Константина и Елены</ru>
     </title>
@@ -1107,6 +1179,9 @@
 
 
   <feast id="" type="middle" rank="great_doxology">
+    <refs>
+      <ref id="ls-273-2" />
+    </refs>
     <title>
       <ru>Память святаго благовернаго князя Константина и чад его, Михаила и Феодора, Муромских
         чудотворцев</ru>
@@ -1145,6 +1220,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-274-1" />
+    </refs>
     <title>
       <ru>Святаго мученика Василиска</ru>
     </title>
@@ -1169,6 +1247,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-275-1" />
+    </refs>
     <title>
       <ru>Преподобнаго отца нашего и исповедника Михаила, епископа Синадскаго</ru>
     </title>
@@ -1232,6 +1313,9 @@
   </feast>
 
   <feast id="" type="middle" rank="six_stichera">
+    <refs>
+      <ref id="ls-276-1" />
+    </refs>
     <title>
       <ru>Преподобнаго отца нашего Симеона, иже на Дивней горе</ru>
     </title>
@@ -1354,6 +1438,9 @@
   </feast>
 
   <feast id="" type="middle" rank="six_stichera">
+    <refs>
+      <ref id="ls-278-1" />
+    </refs>
     <title>
       <ru>Святаго великомученика Георгиа Новаго, пострадавшаго от безбожнаго царя Селима Турскаго</ru>
     </title>
@@ -1400,6 +1487,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-279-2" />
+    </refs>
     <title>
       <ru>Святаго священномученика Ферапонта</ru>
     </title>
@@ -1423,6 +1513,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-280-2" />
+    </refs>
     <title>
       <ru>Преподобнаго отца нашего Никиты, епископа Халкидонскаго</ru>
     </title>
@@ -1448,6 +1541,9 @@
   </feast>
 
   <feast id="" type="middle" rank="six_stichera">
+    <refs>
+      <ref id="ls-280-3" />
+    </refs>
     <title>
       <ru>Память святаго Игнатиа епископа, Ростовскаго чудотворца</ru>
     </title>
@@ -1484,6 +1580,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-281-1" />
+    </refs>
     <title>
       <ru>Святыя преподобномученицы Феодосии девицы</ru>
     </title>
@@ -1562,6 +1661,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-282-1" />
+    </refs>
     <title>
       <ru>Преподобнаго отца нашего Исаакиа, обители Далматския</ru>
     </title>
@@ -1597,6 +1699,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-283-1" />
+    </refs>
     <title>
       <ru>Святаго мученика Ермеа</ru>
     </title>
