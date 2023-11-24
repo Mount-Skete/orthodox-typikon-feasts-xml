@@ -43,4 +43,13 @@
         </date>
     </feast>
 
+    <feast id="" type="great" rank="vigil">
+        <title>
+            <ru>День Святого Духа</ru>
+        </title>
+        <date>
+            <easter days="+51"/>
+        </date>
+    </feast>
+
 </feasts>
