@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feasts>
-
     <feast id="" type="middle" rank="great_doxology">
+        <refs>
+            <ref id="ls-348-1" />
+        </refs>
         <title>
             <ru>Происхождение Честных Древ, Честнаго и Животворящаго Креста</ru>
         </title>
@@ -38,6 +40,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-348-2" />
+        </refs>
         <title>
             <ru>Память святых седми мученик Маккавей, и матере их Соломонии, и учителя их Елеазара</ru>
         </title>
@@ -62,6 +67,9 @@
     </feast>
 
     <feast id="" type="middle" rank="six_stichera">
+        <refs>
+            <ref id="ls-349-1" />
+        </refs>
         <title>
             <ru>Пренесение мощей святаго первомученика и архидиакона Стефана</ru>
         </title>
@@ -144,6 +152,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-350-1" />
+        </refs>
         <title>
             <ru>Преподобных отец наших, Исаакиа, Далмата и Фавста</ru>
         </title>
@@ -208,6 +219,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-351-1" />
+        </refs>
         <title>
             <ru>Святых седми отроков, иже во Ефесе</ru>
         </title>
@@ -326,6 +340,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-354-3" />
+        </refs>
         <title>
             <ru>Святаго преподобномученика Дометиа</ru>
         </title>
@@ -388,6 +405,9 @@
     </feast>
 
     <feast id="" type="middle" rank="polyeleos">
+        <refs>
+            <ref id="ls-356-1" />
+        </refs>
         <title>
             <ru>Святаго апостола Матфиа</ru>
         </title>
@@ -411,6 +431,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-357-1" />
+        </refs>
         <title>
             <ru>Святаго мученика и архидиакона Лаврентиа</ru>
         </title>
@@ -459,6 +482,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-359-1" />
+        </refs>
         <title>
             <ru>Святых мученик, Фотия и Аникиты</ru>
         </title>
@@ -607,6 +633,9 @@
     </feast>
 
     <feast id="" type="great" rank="vigil">
+        <refs>
+            <ref id="ls-362-1" />
+        </refs>
         <title>
             <ru>Успение Пресвятыя славныя Владычицы нашея Богородицы, и Приснодевы Марии</ru>
         </title>
@@ -642,6 +671,9 @@
     </feast>
 
     <feast id="" type="middle" rank="great_doxology">
+        <refs>
+            <ref id="ls-363-1" />
+        </refs>
         <title>
             <ru>От Едеса пренесение в Константинь град Нерукотвореннаго Образа Господа нашего Иисуса
                 Христа, рекше Святаго Убруса</ru>
@@ -692,6 +724,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-364-4" />
+        </refs>
         <title>
             <ru>Святаго мученика Мирона</ru>
         </title>
@@ -716,6 +751,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-365-2" />
+        </refs>
         <title>
             <ru>Святых мученик, Флора и Лавра</ru>
         </title>
@@ -754,6 +792,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-366-1" />
+        </refs>
         <title>
             <ru>Святаго мученика Андреа Стратилата, и с ним дву тысящ пяти сот девятидесяти трех</ru>
         </title>
@@ -794,6 +835,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-367-1" />
+        </refs>
         <title>
             <ru>Святаго пророка Самуила</ru>
         </title>
@@ -818,6 +862,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-368-1" />
+        </refs>
         <title>
             <ru>Святаго апостола Фаддеа</ru>
         </title>
@@ -841,6 +888,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-368-2" />
+        </refs>
         <title>
             <ru>Святыя мученицы Вассы</ru>
         </title>
@@ -894,6 +944,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-369-3" />
+        </refs>
         <title>
             <ru>Святаго мученика Агафоника, и иже с ним</ru>
         </title>
@@ -918,6 +971,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-370-3" />
+        </refs>
         <title>
             <ru>Святаго мученика Луппа</ru>
         </title>
@@ -940,6 +996,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-371-2" />
+        </refs>
         <title>
             <ru>Святаго священномученика Евтиха, ученика святаго Иоанна Богослова</ru>
         </title>
@@ -1007,6 +1066,9 @@
     </feast>
 
     <feast id="" type="middle" rank="six_stichera">
+        <refs>
+            <ref id="ls-372-2" />
+        </refs>
         <title>
             <ru>Возвращение мощей святаго апостола Варфоломеа</ru>
         </title>
@@ -1030,6 +1092,9 @@
     </feast>
 
     <feast id="" type="middle" rank="six_stichera">
+        <refs>
+            <ref id="ls-372-1" />
+        </refs>
         <title>
             <ru>Святаго апостола Тита</ru>
         </title>
@@ -1054,6 +1119,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-373-1" />
+        </refs>
         <title>
             <ru>Святых мученик, Адриана и Наталии</ru>
         </title>
@@ -1100,6 +1168,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-374-1" />
+        </refs>
         <title>
             <ru>Преподобнаго отца нашего Пимена</ru>
         </title>
@@ -1123,6 +1194,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-375-1" />
+        </refs>
         <title>
             <ru>Преподобнаго отца нашего Моисеа Мурина</ru>
         </title>
@@ -1146,6 +1220,9 @@
     </feast>
 
     <feast id="" type="great" rank="vigil">
+        <refs>
+            <ref id="ls-376-1" />
+        </refs>
         <title>
             <ru>Усекновение честныя главы честнаго славнаго Пророка, Предтечи и Крестителя
                 Иоанна
@@ -1186,6 +1263,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-377-1" />
+        </refs>
         <title>
             <ru>Иже во святых отец наших, патриархов Константиня града, Александра, Иоанна и Павла
                 Новаго</ru>
@@ -1212,6 +1292,9 @@
     </feast>
 
     <feast id="" type="middle" rank="polyeleos">
+        <refs>
+            <ref id="ls-377-2" />
+        </refs>
         <title>
             <ru>Пренесение мощей святаго благовернаго великаго князя Александра Невскаго, из
                 Владимира в царствующий град святаго Петра</ru>
@@ -1251,6 +1334,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-377-3" />
+        </refs>
         <title>
             <ru>Преставление преподобнаго Александра Свирскаго</ru>
         </title>
