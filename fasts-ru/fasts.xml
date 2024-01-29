@@ -11,6 +11,16 @@
                 <ru>Разрешается рыба</ru>
             </title>
         </fastType>
+        <fastType id="roe">
+            <title>
+                <ru>Разрешается икра</ru>
+            </title>
+        </fastType>
+        <fastType id="cheese">
+            <title>
+                <ru>Разрешается сыр</ru>
+            </title>
+        </fastType>
         <fastType id="oil">
             <title>
                 <ru>Горячая пища с маслом</ru>
@@ -35,8 +45,8 @@
 
     <fast id="fast:ordinary" order="0">
         <schedule>
-            <day weekday="wed" fastType="no-oil"/>
-            <day weekday="fri" fastType="no-oil"/>
+            <day weekday="wed" fastType="oil"/>
+            <day weekday="fri" fastType="oil"/>
         </schedule>
     </fast>
 
@@ -51,18 +61,22 @@
             <easter/>
         </end>
         <schedule order="0">
-            <day weekday="mon" fastType="no-oil"/>
-            <day weekday="tue" fastType="no-oil"/>
+            <day weekday="mon" fastType="dry"/>
+            <day weekday="tue" fastType="dry"/>
             <day weekday="wed" fastType="dry"/>
-            <day weekday="thu" fastType="no-oil"/>
+            <day weekday="thu" fastType="oil"/>
             <day weekday="fri" fastType="dry"/>
             <day weekday="sat" fastType="oil"/>
             <day weekday="sun" fastType="oil"/>
         </schedule>
         <schedule order="1">
             <day number="0" fastType="no-food"/>
-            <day number="1" fastType="no-food"/>
+            <day number="3" fastType="dry"/>
+            <day number="29" fastType="fish"/>
+            <day number="40" fastType="roe"/>
+            <day number="41" fastType="fish"/>
             <day number="46" fastType="no-food"/>
+            <day number="47" fastType="no-oil"/>
         </schedule>
     </fast>
 
@@ -228,6 +242,27 @@
         </schedule>
     </fast>
 
+    <fast id="fast:cross" order="2">
+        <title>
+            <ru>Благовещение</ru>
+        </title>
+        <start>
+            <julian>04-07</julian>
+        </start>
+        <end>
+            <julian>04-07</julian>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="fish"/>
+            <day weekday="tue" fastType="fish"/>
+            <day weekday="wed" fastType="fish"/>
+            <day weekday="thu" fastType="fish"/>
+            <day weekday="fri" fastType="fish"/>
+            <day weekday="sat" fastType="fish"/>
+            <day weekday="sun" fastType="fish"/>
+        </schedule>
+    </fast>
+
     <fast id="fast:hdays" order="2">
         <title>
             <ru>Святки</ru>
@@ -272,22 +307,22 @@
 
     <fast id="fast:cheese" order="2">
         <title>
-            <ru>Сырная</ru>
+            <ru>Седмица Сырная</ru>
         </title>
         <start>
-            <easter days="-62"/>
+            <easter days="-56"/>
         </start>
         <end>
-            <easter days="-56"/>
+            <easter days="-49"/>
         </end>
         <schedule order="0">
-            <day weekday="mon" fastType="fish"/>
-            <day weekday="tue" fastType="fish"/>
-            <day weekday="wed" fastType="fish"/>
-            <day weekday="thu" fastType="fish"/>
-            <day weekday="fri" fastType="fish"/>
-            <day weekday="sat" fastType="fish"/>
-            <day weekday="sun" fastType="fish"/>
+            <day weekday="mon" fastType="cheese"/>
+            <day weekday="tue" fastType="cheese"/>
+            <day weekday="wed" fastType="cheese"/>
+            <day weekday="thu" fastType="cheese"/>
+            <day weekday="fri" fastType="cheese"/>
+            <day weekday="sat" fastType="cheese"/>
+            <day weekday="sun" fastType="cheese"/>
         </schedule>
     </fast>
 
@@ -313,24 +348,24 @@
     </fast>
 
     <fast id="fast:trinity" order="2">
-      <title>
-        <ru>Троицкая</ru>
-      </title>
-      <start>
-        <easter days="36" />
-      </start>
-      <end>
-        <easter days="42" />
-      </end>
-      <schedule order="0">
-        <day weekday="mon" fastType="no-fast" />
-        <day weekday="tue" fastType="no-fast" />
-        <day weekday="wed" fastType="no-fast" />
-        <day weekday="thu" fastType="no-fast" />
-        <day weekday="fri" fastType="no-fast" />
-        <day weekday="sat" fastType="no-fast" />
-        <day weekday="sun" fastType="no-fast" />
-      </schedule>
+        <title>
+            <ru>Троицкая</ru>
+        </title>
+        <start>
+            <easter days="36"/>
+        </start>
+        <end>
+            <easter days="42"/>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="no-fast"/>
+            <day weekday="tue" fastType="no-fast"/>
+            <day weekday="wed" fastType="no-fast"/>
+            <day weekday="thu" fastType="no-fast"/>
+            <day weekday="fri" fastType="no-fast"/>
+            <day weekday="sat" fastType="no-fast"/>
+            <day weekday="sun" fastType="no-fast"/>
+        </schedule>
     </fast>
 
 </fasts>
