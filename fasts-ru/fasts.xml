@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fasts>
+    <types>
+        <fastType id="no-fast">
+            <title>
+                <ru>Поста нет</ru>
+            </title>
+        </fastType>
+        <fastType id="fish">
+            <title>
+                <ru>Разрешается рыба</ru>
+            </title>
+        </fastType>
+        <fastType id="oil">
+            <title>
+                <ru>Горячая пища с маслом</ru>
+            </title>
+        </fastType>
+        <fastType id="no-oil">
+            <title>
+                <ru>Горячая пища без масла</ru>
+            </title>
+        </fastType>
+        <fastType id="dry">
+            <title>
+                <ru>Сухоядение</ru>
+            </title>
+        </fastType>
+        <fastType id="no-food">
+            <title>
+                <ru>Полное воздержание</ru>
+            </title>
+        </fastType>
+    </types>
+
+    <fast id="fast:ordinary" order="0">
+        <schedule>
+            <day weekday="wed" fastType="no-oil"/>
+            <day weekday="fri" fastType="no-oil"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:lent" order="1">
+        <title>
+            <ru>Великий пост</ru>
+        </title>
+        <start>
+            <easter days="-48"/>
+        </start>
+        <end>
+            <easter/>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="no-oil"/>
+            <day weekday="tue" fastType="no-oil"/>
+            <day weekday="wed" fastType="dry"/>
+            <day weekday="thu" fastType="no-oil"/>
+            <day weekday="fri" fastType="dry"/>
+            <day weekday="sat" fastType="oil"/>
+            <day weekday="sun" fastType="oil"/>
+        </schedule>
+        <schedule order="1">
+            <day number="0" fastType="no-food"/>
+            <day number="1" fastType="no-food"/>
+            <day number="46" fastType="no-food"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:apostles" order="1">
+        <title>
+            <ru>Апостольский пост</ru>
+        </title>
+        <start>
+            <easter days="+49" shift="2:mon"/>
+        </start>
+        <end>
+            <julian>06-28</julian>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="fish"/>
+            <day weekday="tue" fastType="fish"/>
+            <day weekday="wed" fastType="oil"/>
+            <day weekday="thu" fastType="fish"/>
+            <day weekday="fri" fastType="oil"/>
+            <day weekday="sat" fastType="fish"/>
+            <day weekday="sun" fastType="fish"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:marien" order="1">
+        <title>
+            <ru>Успенский пост</ru>
+        </title>
+        <start>
+            <julian>08-01</julian>
+        </start>
+        <end>
+            <julian>08-14</julian>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="no-oil"/>
+            <day weekday="tue" fastType="no-oil"/>
+            <day weekday="wed" fastType="dry"/>
+            <day weekday="thu" fastType="no-oil"/>
+            <day weekday="fri" fastType="dry"/>
+            <day weekday="sat" fastType="oil"/>
+            <day weekday="sun" fastType="oil"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:christmas" order="1">
+        <title>
+            <ru>Рождественский пост</ru>
+        </title>
+        <start>
+            <julian>11-15</julian>
+        </start>
+        <end>
+            <julian>12-24</julian>
+        </end>
+        <schedule>
+            <start>
+                <julian>11-15</julian>
+            </start>
+            <end>
+                <julian>12-06</julian>
+            </end>
+            <day weekday="mon" fastType="fish"/>
+            <day weekday="tue" fastType="fish"/>
+            <day weekday="wed" fastType="oil"/>
+            <day weekday="thu" fastType="fish"/>
+            <day weekday="fri" fastType="oil"/>
+            <day weekday="sat" fastType="fish"/>
+            <day weekday="sun" fastType="fish"/>
+        </schedule>
+        <schedule>
+            <start>
+                <julian>12-07</julian>
+            </start>
+            <end>
+                <julian>12-19</julian>
+            </end>
+            <day weekday="mon" fastType="oil"/>
+            <day weekday="tue" fastType="oil"/>
+            <day weekday="wed" fastType="no-oil"/>
+            <day weekday="thu" fastType="oil"/>
+            <day weekday="fri" fastType="no-oil"/>
+            <day weekday="sat" fastType="fish"/>
+            <day weekday="sun" fastType="fish"/>
+        </schedule>
+        <schedule>
+            <start>
+                <julian>12-20</julian>
+            </start>
+            <end>
+                <julian>12-24</julian>
+            </end>
+            <day weekday="mon" fastType="no-oil"/>
+            <day weekday="tue" fastType="no-oil"/>
+            <day weekday="wed" fastType="dry"/>
+            <day weekday="thu" fastType="no-oil"/>
+            <day weekday="fri" fastType="dry"/>
+            <day weekday="sat" fastType="oil"/>
+            <day weekday="sun" fastType="oil"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:baptism" order="2">
+        <title>
+            <ru>Крещенский сочельник</ru>
+        </title>
+        <start>
+            <julian>01-05</julian>
+        </start>
+        <end>
+            <julian>01-05</julian>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="oil"/>
+            <day weekday="tue" fastType="oil"/>
+            <day weekday="wed" fastType="oil"/>
+            <day weekday="thu" fastType="oil"/>
+            <day weekday="fri" fastType="oil"/>
+            <day weekday="sat" fastType="oil"/>
+            <day weekday="sun" fastType="oil"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:john" order="2">
+        <title>
+            <ru>Усекновение главы Иоанна Предтечи</ru>
+        </title>
+        <start>
+            <julian>01-05</julian>
+        </start>
+        <end>
+            <julian>01-05</julian>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="oil"/>
+            <day weekday="tue" fastType="oil"/>
+            <day weekday="wed" fastType="oil"/>
+            <day weekday="thu" fastType="oil"/>
+            <day weekday="fri" fastType="oil"/>
+            <day weekday="sat" fastType="oil"/>
+            <day weekday="sun" fastType="oil"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:cross" order="2">
+        <title>
+            <ru>Воздвижение Креста Господня</ru>
+        </title>
+        <start>
+            <julian>09-14</julian>
+        </start>
+        <end>
+            <julian>09-14</julian>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="oil"/>
+            <day weekday="tue" fastType="oil"/>
+            <day weekday="wed" fastType="oil"/>
+            <day weekday="thu" fastType="oil"/>
+            <day weekday="fri" fastType="oil"/>
+            <day weekday="sat" fastType="oil"/>
+            <day weekday="sun" fastType="oil"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:hdays" order="2">
+        <title>
+            <ru>Святки</ru>
+        </title>
+        <start>
+            <julian>12-25</julian>
+        </start>
+        <end>
+            <julian>01-05</julian>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="no-fast"/>
+            <day weekday="tue" fastType="no-fast"/>
+            <day weekday="wed" fastType="no-fast"/>
+            <day weekday="thu" fastType="no-fast"/>
+            <day weekday="fri" fastType="no-fast"/>
+            <day weekday="sat" fastType="no-fast"/>
+            <day weekday="sun" fastType="no-fast"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:pharisees" order="2">
+        <title>
+            <ru>Мытаря и фарисея</ru>
+        </title>
+        <start>
+            <easter days="-70"/>
+        </start>
+        <end>
+            <easter days="-64"/>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="no-fast"/>
+            <day weekday="tue" fastType="no-fast"/>
+            <day weekday="wed" fastType="no-fast"/>
+            <day weekday="thu" fastType="no-fast"/>
+            <day weekday="fri" fastType="no-fast"/>
+            <day weekday="sat" fastType="no-fast"/>
+            <day weekday="sun" fastType="no-fast"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:cheese" order="2">
+        <title>
+            <ru>Сырная</ru>
+        </title>
+        <start>
+            <easter days="-62"/>
+        </start>
+        <end>
+            <easter days="-56"/>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="fish"/>
+            <day weekday="tue" fastType="fish"/>
+            <day weekday="wed" fastType="fish"/>
+            <day weekday="thu" fastType="fish"/>
+            <day weekday="fri" fastType="fish"/>
+            <day weekday="sat" fastType="fish"/>
+            <day weekday="sun" fastType="fish"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:easter" order="2">
+        <title>
+            <ru>Пасхальная</ru>
+        </title>
+        <start>
+            <easter days="1"/>
+        </start>
+        <end>
+            <easter days="6"/>
+        </end>
+        <schedule order="0">
+            <day weekday="mon" fastType="no-fast"/>
+            <day weekday="tue" fastType="no-fast"/>
+            <day weekday="wed" fastType="no-fast"/>
+            <day weekday="thu" fastType="no-fast"/>
+            <day weekday="fri" fastType="no-fast"/>
+            <day weekday="sat" fastType="no-fast"/>
+            <day weekday="sun" fastType="no-fast"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:trinity" order="2">
+      <title>
+        <ru>Троицкая</ru>
+      </title>
+      <start>
+        <easter days="36" />
+      </start>
+      <end>
+        <easter days="42" />
+      </end>
+      <schedule order="0">
+        <day weekday="mon" fastType="no-fast" />
+        <day weekday="tue" fastType="no-fast" />
+        <day weekday="wed" fastType="no-fast" />
+        <day weekday="thu" fastType="no-fast" />
+        <day weekday="fri" fastType="no-fast" />
+        <day weekday="sat" fastType="no-fast" />
+        <day weekday="sun" fastType="no-fast" />
+      </schedule>
+    </fast>
+
+</fasts>
