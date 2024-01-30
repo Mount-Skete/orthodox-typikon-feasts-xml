@@ -58,7 +58,7 @@
             <easter days="-48"/>
         </start>
         <end>
-            <easter/>
+            <easter days="-1"/>
         </end>
         <schedule order="0">
             <day weekday="mon" fastType="dry"/>
@@ -242,15 +242,15 @@
         </schedule>
     </fast>
 
-    <fast id="fast:cross" order="2">
+    <fast id="fast:annunciation" order="2">
         <title>
-            <ru>Благовещение</ru>
+            <ru>Благовещение Пресвятой Богородицы</ru>
         </title>
         <start>
-            <julian>04-07</julian>
+            <julian>03-25</julian>
         </start>
         <end>
-            <julian>04-07</julian>
+            <julian>03-25</julian>
         </end>
         <schedule order="0">
             <day weekday="mon" fastType="fish"/>
@@ -260,6 +260,21 @@
             <day weekday="fri" fastType="fish"/>
             <day weekday="sat" fastType="fish"/>
             <day weekday="sun" fastType="fish"/>
+        </schedule>
+    </fast>
+
+    <fast id="fast:easter" order="2">
+        <title>
+            <ru>Светлое Христово Воскресение. Пасха</ru>
+        </title>
+        <start>
+            <easter/>
+        </start>
+        <end>
+            <easter/>
+        </end>
+        <schedule order="0">
+            <day weekday="sun" fastType="no-fast"/>
         </schedule>
     </fast>
 
@@ -326,9 +341,9 @@
         </schedule>
     </fast>
 
-    <fast id="fast:easter" order="2">
+    <fast id="fast:easter_week" order="2">
         <title>
-            <ru>Пасхальная</ru>
+            <ru>Светлая седмица</ru>
         </title>
         <start>
             <easter days="1"/>
@@ -349,13 +364,13 @@
 
     <fast id="fast:trinity" order="2">
         <title>
-            <ru>Троицкая</ru>
+            <ru>Троицкая седмица</ru>
         </title>
         <start>
-            <easter days="36"/>
+            <easter days="50"/>
         </start>
         <end>
-            <easter days="42"/>
+            <easter days="55"/>
         </end>
         <schedule order="0">
             <day weekday="mon" fastType="no-fast"/>
