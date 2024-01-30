@@ -36,10 +36,19 @@
 
     <feast id="" type="great" rank="vigil">
         <title>
+            <ru>Вознесение Господне</ru>
+        </title>
+        <date>
+            <easter days="+39"/>
+        </date>
+    </feast>
+
+    <feast id="" type="great" rank="vigil">
+        <title>
             <ru>День Святой Троицы</ru>
         </title>
         <date>
-            <easter days="+50"/>
+            <easter days="+49"/>
         </date>
     </feast>
 
@@ -48,7 +57,7 @@
             <ru>День Святого Духа</ru>
         </title>
         <date>
-            <easter days="+51"/>
+            <easter days="+50"/>
         </date>
     </feast>
 
