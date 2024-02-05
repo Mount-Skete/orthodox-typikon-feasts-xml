@@ -1254,6 +1254,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-150-1" />
+        </refs>
         <title>
             <ru>Святаго священномученика Климента, епископа Агкирскаго</ru>
         </title>
