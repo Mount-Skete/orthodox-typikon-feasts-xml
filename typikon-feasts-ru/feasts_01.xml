@@ -1329,6 +1329,9 @@
     </feast>
 
     <feast id="" type="middle" rank="polyeleos">
+        <refs>
+            <ref id="ls-152-1" />
+        </refs>
         <title>
             <ru>Иже во святых отца нашего Григориа, архиепископа Константиня града, богослова</ru>
         </title>
