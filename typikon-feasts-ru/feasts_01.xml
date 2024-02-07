@@ -1370,6 +1370,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-153-1" />
+        </refs>
         <title>
             <ru>Преподобнаго отца нашего Ксенофонта и дружины его</ru>
         </title>
