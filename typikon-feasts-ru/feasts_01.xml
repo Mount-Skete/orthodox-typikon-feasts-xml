@@ -970,6 +970,9 @@
     </feast>
 
     <feast id="" type="middle" rank="six_stichera">
+        <refs>
+            <ref id="ls-145-1" />
+        </refs>
         <title>
             <ru>Иже во святых отец наших и архиепископов Александрийских, Афанасиа и Кирилла</ru>
         </title>
@@ -1521,6 +1524,9 @@
     </feast>
 
     <feast id="" type="middle" rank="six_stichera">
+        <refs>
+            <ref id="ls-156-1" />
+        </refs>
         <title>
             <ru>Перенесение мощей святаго священномученика Игнатиа Богоносца</ru>
         </title>
