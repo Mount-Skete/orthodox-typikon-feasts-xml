@@ -293,6 +293,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-352-2" />
+        </refs>
         <title>
             <ru>Святаго мученика Евсигниа</ru>
         </title>
@@ -304,6 +307,9 @@
     </feast>
 
     <feast id="" type="great" rank="vigil">
+        <refs>
+            <ref id="ls-353-2" />
+        </refs>
         <title>
             <ru>Святое Преображение Господа Бога и Спаса нашего Иисуса Христа</ru>
         </title>

@@ -254,6 +254,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-165-4" />
+        </refs>
         <title>
             <ru>Преподобнаго отца нашего Вукола епископа Смирнскаго</ru>
         </title>

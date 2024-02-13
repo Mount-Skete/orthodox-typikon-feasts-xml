@@ -323,6 +323,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-199-1" />
+        </refs>
         <title>
             <ru>Святаго мученика Кодрата, и дружины его</ru>
         </title>
@@ -792,6 +795,9 @@
     </feast>
 
     <feast id="" type="great" rank="vigil">
+        <refs>
+            <ref id="ls-214-1" />
+        </refs>
         <title>
             <ru>Благовещение Пресвятыя Владычицы нашея Богородицы и Приснодевы Марии</ru>
         </title>

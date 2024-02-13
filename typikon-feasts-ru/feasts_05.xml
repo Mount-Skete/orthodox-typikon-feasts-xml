@@ -395,11 +395,11 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-261-1" />
+    </refs>
     <title>
       <ru>Святаго пророка Исаии</ru>
-      <refs>
-        <ref id="ls-261-1" />
-      </refs>
     </title>
     <date>
       <julian>05-09</julian>
@@ -1029,6 +1029,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-272-1" />
+    </refs>
     <title>
       <ru>Святаго мученика Фалалеа</ru>
     </title>
@@ -1414,6 +1417,9 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-278-3" />
+    </refs>
     <title>
       <ru>Святаго апостола Карпа, единаго от седмидесятих</ru>
     </title>

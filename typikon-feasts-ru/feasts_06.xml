@@ -1031,6 +1031,9 @@
     </feast>
 
     <feast id="" type="middle" rank="polyeleos">
+        <refs>
+            <ref id="ls-310-1" />
+        </refs>
         <title>
             <ru>Явление иконы Пресвятыя Владычицы нашея Богородицы, и приснодевы Марии, Тихвинския</ru>
         </title>
@@ -1170,6 +1173,9 @@
     </feast>
 
     <feast id="" type="great" rank="vigil">
+        <refs>
+            <ref id="ls-313-1" />
+        </refs>
         <title>
             <ru>Святых славных и всехвальных и первоверховных апостолов Петра и Павла</ru>
         </title>
