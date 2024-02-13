@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='utf-8'?>
+<weeks>
+
+  <!-- Пасха - Easter -->
+  <week>
+    <title>
+      <ru>Неделя Пасхи</ru>
+    </title>
+    <date>
+      <easter week="1" />
+    </date>
+    <day weekday="sun">
+      <liturgy>
+        <reading>Деян.1:1-8</reading>
+        <reading>Ин.1:1-17</reading>
+      </liturgy>
+      <vespers>
+        <reading>Ин.20:19-25</reading>
+      </vespers>
+    </day>
+    <day weekday="mon">
+      <reading>Деян.1:12-17,21-26</reading>
+      <reading>Ин.1:18-28</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Деян.2:14-21</reading>
+      <reading>Лк.24:12-35</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Деян.2:22-36</reading>
+      <reading>Ин.1:35-51</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Деян.2:38-43</reading>
+      <reading>Ин.3:1-15</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Деян.3:1-8</reading>
+      <reading>Ин.2:12-22</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Деян.3:11-16</reading>
+      <reading>Ин.3:22-33</reading>
+    </day>
+  </week>
+
+  <week>
+    <title>
+      <ru>2 неделя, о Фоме</ru>
+    </title>
+    <date>
+      <easter week="2" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Мф.28:16-20</reading>
+      </orthros>
+      <liturgy>
+        <reading>Деян.5:12-20</reading>
+        <reading>Ин.20:19-31</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Деян.3:19-26</reading>
+      <reading>Ин.2:1-11</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Деян.4:1-10</reading>
+      <reading>Ин.3:16-21</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Деян.4:13-22</reading>
+      <reading>Ин.5:17-24</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Деян.4:23-31</reading>
+      <reading>Ин.5:24-30</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Деян.5:1-11</reading>
+      <reading>Ин.5:30-6:2</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Деян.5:21-33</reading>
+      <reading>Ин.6:14-27</reading>
+    </day>
+  </week>
+
+  <week>
+    <title>
+      <ru>3 неделя, о Мироносицах</ru>
+    </title>
+    <date>
+      <easter week="3" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Мк.16:9-20</reading>
+      </orthros>
+      <liturgy>
+        <reading>Деян.6:1-7</reading>
+        <reading>Мк.15:43-16:8</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Деян.6:8-7:5,47-60</reading>
+      <reading>Ин.4:46-54</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Деян.8:5-17</reading>
+      <reading>Ин.6:27-33</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Деян.8:18-25</reading>
+      <reading>Ин.6:35-39</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Деян.8:26-39</reading>
+      <reading>Ин.6:40-44</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Деян.8:40-9:19</reading>
+      <reading>Ин.6:48-54</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Деян.9:20-31</reading>
+      <reading>Ин.15:17-16:2</reading>
+    </day>
+  </week>
+
+  <week>
+    <title>
+      <ru>4 неделя, о Расслабленном</ru>
+    </title>
+    <date>
+      <easter week="4" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Лк.24:1-12</reading>
+      </orthros>
+      <liturgy>
+        <reading>Деян.9:32-42</reading>
+        <reading>Ин.5:1-15</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Деян.10:1-16</reading>
+      <reading>Ин.6:56-69</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Деян.10:21-33</reading>
+      <reading>Ин.7:1-13</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Деян.14:6-18</reading>
+      <reading>Ин.7:14-30</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Деян.10:34-43</reading>
+      <reading>Ин.8:12-20</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Деян.10:44-11:10</reading>
+      <reading>Ин.8:21-30</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Деян.12:1-11</reading>
+      <reading>Ин.8:31-42</reading>
+    </day>
+  </week>
+
+  <week>
+    <title>
+      <ru>5 неделя, о Саморяныне</ru>
+    </title>
+    <date>
+      <easter week="5" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Ин.20:1-10</reading>
+      </orthros>
+      <liturgy>
+        <reading>Деян.11:19-26,29-30</reading>
+        <reading>Ин.4:5-42</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Деян.12:12-17</reading>
+      <reading>Ин.8:42-51</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Деян.12:25-13:12</reading>
+      <reading>Ин.8:51-59</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Деян.13:13-24</reading>
+      <reading>Ин.6:5-14</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Деян.14:20-27</reading>
+      <reading>Ин.9:39-10:9</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Деян.15:5-34</reading>
+      <reading>Ин.10:17-28</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Деян.15:35-41</reading>
+      <reading>Ин.10:27-38</reading>
+    </day>
+  </week>
+
+  <week>
+    <title>
+      <ru>6 неделя, о Слепом</ru>
+    </title>
+    <date>
+      <easter week="6" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Ин.20:11-18</reading>
+      </orthros>
+      <liturgy>
+        <reading>Деян.16:16-34</reading>
+        <reading>Ин.9:1-38</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Деян.17:1-15</reading>
+      <reading>Ин.11:47-57</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Деян.17:19-28</reading>
+      <reading>Ин.12:19-36</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Деян.18:22-28</reading>
+      <reading>Ин.12:36-47</reading>
+    </day>
+    <day weekday="thu">
+      <orthros>
+        <reading>Мк.16:9-20</reading>
+      </orthros>
+      <liturgy>
+        <reading>Деян.1:1-12</reading>
+        <reading>Лк.24:36-53</reading>
+      </liturgy>
+    </day>
+    <day weekday="fri">
+      <reading>Деян.19:1-8</reading>
+      <reading>Ин.14:1-11</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Деян.20:7-12</reading>
+      <reading>Ин.14:10-21</reading>
+    </day>
+  </week>
+
+  <week>
+    <title>
+      <ru>7 неделя, Святых Отец </ru>
+    </title>
+    <date>
+      <easter week="7" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Ин.21:1-14</reading>
+      </orthros>
+      <liturgy>
+        <reading>Деян.20:16-18,28-36</reading>
+        <reading>18,28-36 Ин.17:1-13</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Деян.21:8-14</reading>
+      <reading>Ин.14:27-15:7</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Деян.21:26-32</reading>
+      <reading>Ин.16:2-13</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Деян.23:1-11</reading>
+      <reading>Ин.16:15-23</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Деян.25:13-19</reading>
+      <reading>Ин.16:23-33</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Деян.27:1-44</reading>
+      <reading>Ин.17:18-26</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Деян.28:1-31</reading>
+      <reading>1Сол.4:13-17</reading>
+      <reading>Ин.21:15-25</reading>
+      <reading>Ин.5:24-30</reading>
+    </day>
+  </week>
+
+  <week>
+    <title>
+      <ru>8 неделя, Пятидесятницы</ru>
+    </title>
+    <date>
+      <easter week="8" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Ин.20:19-31</reading>
+      </orthros>
+      <liturgy>
+        <reading>Деян.2:1-11</reading>
+        <reading>Ин.7:37-52,8:12</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Еф.5:9-19</reading>
+      <reading>Мф.18:10-20</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Рим.1:1-7,13-17</reading>
+      <reading>Мф.4:25,5:1-13</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Рим.1:18-27</reading>
+      <reading>Мф.5:20-26</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Рим.1:28-2:9</reading>
+      <reading>Мф.5:27-32</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Рим.2:14-29</reading>
+      <reading>Мф.5:33-41</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Рим.1:7-12</reading>
+      <reading>Мф.5:42-48</reading>
+    </day>
+  </week>
+
+  <!-- Пятидесятница - Pentecost -->
+  <week>
+    <title>
+      <ru>1 неделя, Всех Святых</ru>
+    </title>
+    <date>
+      <pentecost week="1" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Мф.28:16-20</reading>
+      </orthros>
+      <liturgy>
+        <reading>Евр.11:33-12:2</reading>
+        <reading>Мф.10:32-33,37-38,19:27-30</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Рим.2:28-3,18</reading>
+      <reading>Мф.6:31-34,7:9-11</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Рим.4:4-12</reading>
+      <reading>Мф.7:15-21</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Рим.4:13-25</reading>
+      <reading>Мф.7:21-23</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Рим.5:10-16</reading>
+      <reading>Мф.8:23-27</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Рим.5:17-6:2</reading>
+      <reading>Мф.9:14-17</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Рим.3:19-26</reading>
+      <reading>Мф.7:1-8</reading>
+    </day>
+  </week>
+
+  <week>
+    <title>
+      <ru>2 неделя, по Всех Святых</ru>
+    </title>
+    <date>
+      <pentecost week="2" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Мк.16:1-8</reading>
+      </orthros>
+      <liturgy>
+        <reading>Евр.11:33-12:2</reading>
+        <reading>Мф.10:32-33,37-38,19:27-30</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Рим.2:28-3,18</reading>
+      <reading>Мф.6:31-34,7:9-11</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Рим.4:4-12</reading>
+      <reading>Мф.7:15-21</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Рим.4:13-25</reading>
+      <reading>Мф.7:21-23 [23]</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Рим.5:10-16</reading>
+      <reading>Мф.8:23-27</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Рим.5:17-6:2</reading>
+      <reading>Мф.9:14-17</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Рим.3:19-26</reading>
+      <reading>Мф.7:1-8</reading>
+    </day>
+  </week>
+
+  <week>
+    <title>
+      <ru>3 неделя</ru>
+    </title>
+    <date>
+      <pentecost week="3" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Мк.16:1-8</reading>
+      </orthros>
+      <liturgy>
+        <reading>Рим.2:10-16</reading>
+        <reading>Мф.4:18-23</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Рим.7:1-13</reading>
+      <reading>Мф.9:36-10:8</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Рим.7:14-8:2</reading>
+      <reading>Мф.10:9-15</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Рим.8:2-13</reading>
+      <reading>Мф.10:16-22</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Рим.8:22-27</reading>
+      <reading>Мф.10:23-31</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Рим.9:6-19</reading>
+      <reading>Мф.10:32-36,11:1</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Рим.3:28-4:3</reading>
+      <reading>Мф.7:24-8:4</reading>
+    </day>
+  </week>
+
+  <week>
+    <title>
+      <ru>4 неделя</ru>
+    </title>
+    <date>
+      <pentecost week="4" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Мк.16:9-20</reading>
+      </orthros>
+      <liturgy>
+        <reading>Рим.5:1-10</reading>
+        <reading>Мф.6:22-33</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Рим.9:18-33</reading>
+      <reading>Мф.11:2-15</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Рим.10:11-11:2</reading>
+      <reading>Мф.11:16-20	</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Рим.11:2-12</reading>
+      <reading>Мф.11:20-26</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Рим.11:13-24</reading>
+      <reading>Мф.11:27-30</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Рим.11:25-36</reading>
+      <reading>Мф.12:1-8</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Рим.6:11-17</reading>
+      <reading>	Мф.8:14-23</reading>
+    </day>
+  </week>
+
+  <week>
+    <title>
+      <ru>5 неделя</ru>
+    </title>
+    <date>
+      <pentecost week="5" />
+    </date>
+    <day weekday="sun">
+      <orthros>
+        <reading>Лк.24:1-12</reading>
+      </orthros>
+      <liturgy>
+        <reading>Рим.6:18-23</reading>
+        <reading>Мф.8:5-13</reading>
+      </liturgy>
+    </day>
+    <day weekday="mon">
+      <reading>Рим.12:4-5:15-21</reading>
+      <reading>Мф.12:9-13</reading>
+    </day>
+    <day weekday="tue">
+      <reading>Рим.14:9-18</reading>
+      <reading>Мф.12:14-16,22-30</reading>
+    </day>
+    <day weekday="wed">
+      <reading>Рим.15:7-16</reading>
+      <reading>Мф.12:38-45</reading>
+    </day>
+    <day weekday="thu">
+      <reading>Рим.15:17-29</reading>
+      <reading>Мф.12:46-13:3</reading>
+    </day>
+    <day weekday="fri">
+      <reading>Рим.16:1-16</reading>
+      <reading>Мф.13:4-9</reading>
+    </day>
+    <day weekday="sat">
+      <reading>Рим.8:14-21</reading>
+      <reading>Мф.9:9-13</reading>
+    </day>
+  </week>
+
+</weeks>
