@@ -972,6 +972,9 @@
     </feast>
 
     <feast id="" type="low" rank="ordinary">
+        <refs>
+            <ref id="ls-220-1" />
+        </refs>
         <title>
             <ru>Преподобнаго и чудотворца Ипатиа, епископа гаггрскаго</ru>
         </title>
