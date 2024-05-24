@@ -202,12 +202,16 @@ class BookMapper(beam.DoFn):
                     h_type = HymnType.Kontakion
 
                 echo: int = 0
-                if m := re.match(r'.*, глас (\d):', text):
+                if m := re.match(r'.*, глас (\d):?', text):
                     echo = int(m.group(1))
 
                 if echo == 0:
-                    print(f'echo==0 source={text}')
-                    #assert echo != 0
+                    # Exception in source. CU number
+                    if text.endswith('глас в҃:'):
+                        echo = 2
+
+                if echo == 0:
+                    print(f'echo==0 {text}')
 
                 hymns.append(Hymn(header=header,
                                   title=text,
