@@ -1,5 +1,6 @@
 import math
 import re
+import typing
 from datetime import datetime, timedelta
 
 import apache_beam as beam
@@ -10,74 +11,25 @@ from bs4 import Tag
 from BookTypes import BookDay, HymnType, Hymn, HymnSet, Event, StringUtils
 
 
-class BookMapper(beam.DoFn):
-    _BOOK_START_DATE = datetime(2019, 9, 1)  # SEP 1
-    __debug = False
+class BookDayElement(typing.NamedTuple):
+    element: bytes
+    day_index: int
+    julian: datetime
 
-    @staticmethod
-    def find_day_id(day_links):
-        for link in day_links:
-            if link['id'] and 'headertemplate' in link['id']:
-                return link
 
-        return None
+class BookDaysMapper(beam.DoFn):
 
-    def query_day(self, soup, julian_day, skip_days) -> BookDay | None:
-        day_index = self.calc_day_index_ref(julian_day) + skip_days
-        day_book_ref = f'div[id*="c{day_index}_"]'
-        day_links = soup.select(day_book_ref)
-        day_link = self.find_day_id(day_links)
+    def process(self, element: BookDayElement, **kwargs):
+        day = self.query_day(BeautifulSoup(element.element), element.day_index, element.julian)
 
-        if not day_link:
-            raise Exception(f'Header template not found for {day_book_ref}')
+        if len(day.events) == 0:
+            print(f'No events found for day {element.julian.isoformat()}')
+            return
 
-        text_el = day_link.find_next_sibling('div', 'text')
-        if text_el is None or 'text' not in text_el['class']:
-            # Workaround for source bugs dayIndex === 55, 146, 156
-            text_el = day_link.parent.find_next_sibling().select_one(':first-child')
+        for event in day.events:
+            print(event.header)
 
-            if not text_el or 'text' not in text_el.get('class', []):
-                raise Exception(f'Text not found {day_book_ref}')
-
-        el = text_el.select('.prp-pages-output')
-        if len(el) == 0:
-            print(f'Ignoring month index page {day_book_ref}')
-            # raise Exception(f'Content element not found for {day_book_ref}')
-            return None
-
-        el = el[0]
-
-        # Parallelize
-
-        el = el.select('.heading')
-        if len(el) == 0:
-            print(f'Heading not found {day_book_ref}')
-            return None
-
-        el = el[0]
-
-        # Print day name
-        print(el.text.strip())
-
-        el = el.find_next_sibling('hr')
-        event_id = 1
-        evs: list[Event] = []
-        event, el = self.extract_event_content(el)
-        event.id = self.gen_event_id(day_index, event_id)
-        evs.append(event)
-
-        while event is not None and el is not None:
-            event, el = self.extract_event_content(el)
-
-            if event is None or el is None:
-                break
-
-            event_id += 1
-            event.id = self.gen_event_id(day_index, event_id)
-            evs.append(event)
-
-        return BookDay(events=evs,
-                       julian=julian_day)
+        yield day
 
     def extract_event_content(self, el) -> (Event, Tag):
         if el is None:
@@ -198,6 +150,56 @@ class BookMapper(beam.DoFn):
         return HymnSet(hymns=hymns, title=header)
 
     @staticmethod
+    def gen_event_id(day_index, index):
+        return f'ls-{day_index}-{index}'
+
+    def query_day(self, prp_page, day_index, julian_day) -> BookDay | None:
+        el = prp_page
+
+        el = el.select('.heading')
+        if len(el) == 0:
+            print(f'Heading not found {day_index}')
+            return None
+
+        el = el[0]
+
+        # Print day name
+        print(el.text.strip())
+
+        el = el.find_next_sibling('hr')
+        event_id = 1
+        evs: list[Event] = []
+        event, el = self.extract_event_content(el)
+        event.id = self.gen_event_id(day_index, event_id)
+        evs.append(event)
+
+        while event is not None and el is not None:
+            event, el = self.extract_event_content(el)
+
+            if event is None or el is None:
+                break
+
+            event_id += 1
+            event.id = self.gen_event_id(day_index, event_id)
+            evs.append(event)
+
+        return BookDay(events=evs,
+                       julian=julian_day)
+
+
+class BookDaysSplitter(beam.DoFn):
+    _BOOK_START_DATE = datetime(2019, 9, 1)  # SEP 1
+    __debug = False
+
+    @staticmethod
+    def find_day_id(day_links):
+        for link in day_links:
+            if link['id'] and 'headertemplate' in link['id']:
+                return link
+
+        return None
+
+    @staticmethod
     def days_between(date1: datetime, date2: datetime) -> int:
         return int(math.fabs((date1 - date2).days))
 
@@ -205,10 +207,6 @@ class BookMapper(beam.DoFn):
         day_index = self.days_between(self._BOOK_START_DATE, julian_day) + 1
 
         return day_index
-
-    @staticmethod
-    def gen_event_id(day_index, index):
-        return f'ls-{day_index}-{index}'
 
     def process(self, element, **kwargs):
         soup = BeautifulSoup(element[1], 'lxml')
@@ -219,19 +217,34 @@ class BookMapper(beam.DoFn):
         for i in range(1, last_day_index):
             julian = datetime(2019, 9, 1) + timedelta(days=i - skip_days - 1)
 
-            day = self.query_day(soup, julian, skip_days)
+            day_index = self.calc_day_index_ref(julian) + skip_days
+            day_book_ref = f'div[id*="c{day_index}_"]'
+            day_links = soup.select(day_book_ref)
+            day_link = self.find_day_id(day_links)
 
-            if day is None:
+            if not day_link:
+                raise Exception(f'Header template not found for {day_index}')
+
+            text_el = day_link.find_next_sibling('div', 'text')
+            if text_el is None or 'text' not in text_el['class']:
+                # Workaround for source bugs dayIndex === 55, 146, 156
+                text_el = day_link.parent.find_next_sibling().select_one(':first-child')
+
+                if not text_el or 'text' not in text_el.get('class', []):
+                    raise Exception(f'Text not found {day_index}')
+
+            prp_page = text_el.select('.prp-pages-output')
+            if len(prp_page) == 0:
+                print(f'Ignoring month index page {day_index}')
                 skip_days += 1
                 continue
 
-            if len(day.events) == 0:
-                print(f'No events found for day {julian.isoformat()}')
+            if len(prp_page[0].select('.heading')) == 0:
+                print(f'Heading not found {day_index}')
+                skip_days += 1
+                continue
 
-            for event in day.events:
-                print(event.header)
-
-            yield day
+            yield BookDayElement(prp_page[0].encode(), day_index, julian)
 
 
 class BookParser(beam.PTransform):
@@ -245,7 +258,8 @@ class BookParser(beam.PTransform):
                 | fileio.MatchFiles(self.__path)
                 | fileio.ReadMatches()
                 | beam.Map(lambda x: (x.metadata.path, x.read_utf8()))
-                | beam.ParDo(BookMapper())
+                | beam.ParDo(BookDaysSplitter())
+                | beam.ParDo(BookDaysMapper())
         )
 
         return result
