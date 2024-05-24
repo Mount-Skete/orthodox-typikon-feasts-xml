@@ -14,30 +14,6 @@ class BookMapper(beam.DoFn):
     _BOOK_START_DATE = datetime(2019, 9, 1)  # SEP 1
     __debug = False
 
-    def read_book(self, soup):
-        last_day_index = 4 if self.__debug else 379
-        skip_days = 0
-
-        days: list[BookDay] = []
-        for i in range(1, last_day_index):
-            julian = datetime(2019, 9, 1) + timedelta(days=i - skip_days - 1)
-
-            day = self.query_day(soup, julian, skip_days)
-
-            if day is None:
-                skip_days += 1
-                continue
-
-            if len(day.events) == 0:
-                print(f'No events found for day {julian.isoformat()}')
-
-            for event in day.events:
-                print(event.header)
-
-            days.append(day)
-
-        return days
-
     @staticmethod
     def find_day_id(day_links):
         for link in day_links:
@@ -237,8 +213,24 @@ class BookMapper(beam.DoFn):
     def process(self, element, **kwargs):
         soup = BeautifulSoup(element[1], 'lxml')
 
-        days = self.read_book(soup)
-        for day in days:
+        last_day_index = 4 if self.__debug else 379
+        skip_days = 0
+
+        for i in range(1, last_day_index):
+            julian = datetime(2019, 9, 1) + timedelta(days=i - skip_days - 1)
+
+            day = self.query_day(soup, julian, skip_days)
+
+            if day is None:
+                skip_days += 1
+                continue
+
+            if len(day.events) == 0:
+                print(f'No events found for day {julian.isoformat()}')
+
+            for event in day.events:
+                print(event.header)
+
             yield day
 
 
@@ -254,7 +246,6 @@ class BookParser(beam.PTransform):
                 | fileio.ReadMatches()
                 | beam.Map(lambda x: (x.metadata.path, x.read_utf8()))
                 | beam.ParDo(BookMapper())
-                # | beam.Map(lambda x: print(x.events[0].header))
         )
 
         return result
