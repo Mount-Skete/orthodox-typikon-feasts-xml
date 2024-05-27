@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<feasts>
-
+<feasts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../schemas/feasts.xsd">
     <feast id="" type="low" rank="ordinary">
         <refs>
             <ref id="ls-190-1" />
