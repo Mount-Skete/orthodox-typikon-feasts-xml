@@ -233,11 +233,11 @@
   </feast>
 
   <feast id="" type="low" rank="ordinary">
+    <refs>
+      <ref id="ls-258-1" />
+    </refs>
     <title>
       <ru>Святаго и праведнаго Иова Многострадальнаго</ru>
-      <refs>
-        <ref id="ls-258-1" />
-      </refs>
     </title>
     <date>
       <julian>05-06</julian>
