@@ -631,15 +631,6 @@
       <julian>07-11</julian>
     </date>
     <hymns>
-      <hymn type="troparion" echo="">
-        <title>
-          <ru>Тропарь</ru>
-        </title>
-        <content>
-          <ru>
-          </ru>
-        </content>
-      </hymn>
       <hymn type="kontakion" echo="6">
         <title>
           <ru>Кондак, глас 6</ru>

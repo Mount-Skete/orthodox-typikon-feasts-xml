@@ -582,7 +582,7 @@
             <julian>08-14</julian>
         </date>
         <hymns>
-            <hymn type="troparion" echo="">
+            <hymn type="troparion" echo="4">
                 <title>
                     <ru>Тропарь, глас 4</ru>
                 </title>
@@ -618,24 +618,6 @@
             <julian>08-14</julian>
         </date>
         <hymns>
-            <hymn type="troparion" echo="">
-                <title>
-                    <ru>Тропарь</ru>
-                </title>
-                <content>
-                    <ru>
-                    </ru>
-                </content>
-            </hymn>
-            <hymn type="kontakion" echo="">
-                <title>
-                    <ru>Кондак</ru>
-                </title>
-                <content>
-                    <ru>
-                    </ru>
-                </content>
-            </hymn>
         </hymns>
     </feast>
 

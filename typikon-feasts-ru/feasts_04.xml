@@ -705,7 +705,7 @@
             <julian>04-24</julian>
         </date>
         <hymns>
-            <hymn type="kontakion" echo="">
+            <hymn type="kontakion" echo="4">
                 <title>
                     <ru>Кондак, глас 4</ru>
                 </title>
@@ -919,7 +919,7 @@
             <julian>04-29</julian>
         </date>
         <hymns>
-            <hymn type="kontakion" echo="">
+            <hymn type="kontakion" echo="2">
                 <title>
                     <ru>Кондак святых, глас 2</ru>
                 </title>

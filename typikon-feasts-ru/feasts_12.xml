@@ -306,7 +306,7 @@
                     </ru>
                 </content>
             </hymn>
-            <hymn type="kontakion" echo="">
+            <hymn type="kontakion" echo="8">
                 <title>
                     <ru>Кондак, глас 8</ru>
                 </title>
@@ -620,15 +620,6 @@
             <julian>12-15</julian>
         </date>
         <hymns>
-            <hymn type="troparion" echo="">
-                <title>
-                    <ru>Тропарь</ru>
-                </title>
-                <content>
-                    <ru>
-                    </ru>
-                </content>
-            </hymn>
             <hymn type="kontakion" echo="2">
                 <title>
                     <ru>Кондак священномученика, глас 2</ru>
@@ -656,15 +647,6 @@
             <julian>12-15</julian>
         </date>
         <hymns>
-            <hymn type="troparion" echo="">
-                <title>
-                    <ru>Тропарь</ru>
-                </title>
-                <content>
-                    <ru>
-                    </ru>
-                </content>
-            </hymn>
             <hymn type="kontakion" echo="8">
                 <title>
                     <ru>Кондак преподобнаго, глас 8</ru>

@@ -257,15 +257,6 @@
             <julian>10-04</julian>
         </date>
         <hymns>
-            <hymn type="troparion" echo="">
-                <title>
-                    <ru>Тропарь</ru>
-                </title>
-                <content>
-                    <ru>
-                    </ru>
-                </content>
-            </hymn>
             <hymn type="kontakion" echo="8">
                 <title>
                     <ru>Кондак, глас 8</ru>
@@ -516,7 +507,7 @@
             <julian>10-09</julian>
         </date>
         <hymns>
-            <hymn type="kontakion" echo="">
+            <hymn type="kontakion" echo="2">
                 <title>
                     <ru>Кондак, глас 2</ru>
                 </title>
@@ -703,15 +694,6 @@
             <julian>10-12</julian>
         </date>
         <hymns>
-            <hymn type="troparion" echo="">
-                <title>
-                    <ru>Тропарь</ru>
-                </title>
-                <content>
-                    <ru>
-                    </ru>
-                </content>
-            </hymn>
             <hymn type="kontakion" echo="8">
                 <title>
                     <ru>Кондак преподобнаго, глас 8</ru>
@@ -1035,24 +1017,6 @@
             <julian>10-19</julian>
         </date>
         <hymns>
-            <hymn type="troparion" echo="">
-                <title>
-                    <ru>Тропарь</ru>
-                </title>
-                <content>
-                    <ru>
-                    </ru>
-                </content>
-            </hymn>
-            <hymn type="kontakion" echo="">
-                <title>
-                    <ru>Кондак</ru>
-                </title>
-                <content>
-                    <ru>
-                    </ru>
-                </content>
-            </hymn>
         </hymns>
     </feast>
 
@@ -1577,7 +1541,7 @@
             <julian>10-28</julian>
         </date>
         <hymns>
-            <hymn type="kontakion" echo="">
+            <hymn type="kontakion" echo="4">
                 <title>
                     <ru>Кондак, глас 4</ru>
                 </title>
