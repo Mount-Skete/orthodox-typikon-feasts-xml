@@ -9,9 +9,9 @@ jobs:
     name: Data validation
     runs-on: ubuntu-latest
 
-  steps:
-    - name: Install xmllint
-      run: sudo apt install libxml2-utils
+    steps:
+      - name: Install xmllint
+        run: sudo apt install libxml2-utils
 
-    - name: Validate Feasts
-      run: xmllint --schema schemas/feasts.xsd typikon-feasts-ru/* --noout
+      - name: Validate Feasts
+        run: xmllint --schema schemas/feasts.xsd typikon-feasts-ru/* --noout
